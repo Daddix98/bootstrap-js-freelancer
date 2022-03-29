@@ -11,6 +11,9 @@
     <title>WEB DESIGNER</title>
   </head>
   <body>
+
+    <script type="text/javascript" src="/main.js" ></script>
+    
     
     <!--primo contenito parte inziale pagina web-->
     
@@ -137,6 +140,7 @@
                       <button type="button" class="btn btn-light">Vised Site</button>
                     </div>
                 </div>
+            
 
 
             </div>
@@ -171,23 +175,31 @@
                             <input type="password" class="form-control" id="inputPassword4">
                           </div>
                           <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">type of work</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                            <label for="inputEmail4" class="form-label">Type of work</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Scegli un'opzione</option>
+                                <option value="1">Backed Development </option>
+                                <option value="2">Frontend Development</option>
+                                <option value="3">Project Analisys</option>
+                              </select>
                           </div>
                           <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Discount Code</label>
                             <input type="password" class="form-control" id="inputPassword4">
                           </div>
                           <div class="form-floating">
-                           
+                              
+
                             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Comments</label>
+                            <label for="floatingTextarea2" class="form-label">Comments</label>
                           </div>
                           <div class="text-center mb-5">
-                            <button type="button" class="btn btn-warning">Send</button>
+                            <button type="button" class="btn btn-warning " id="send">Send</button>
 
                           </div>
                     </div>
+
+                    <h3 id="risultato">....</h3>
                     
 
                         
